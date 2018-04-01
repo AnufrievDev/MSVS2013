@@ -1,0 +1,109 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>АЧХ-график</title>
+</head>
+<body>
+    <script src="~/Scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/flot/jquery.flot.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/flot/jquery.flot.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.js" type="text/javascript"></script>
+
+    <div id="body" style="text-align: center">
+
+        <div id="flotpart">
+            @Html.Partial("Partial")
+        </div>
+
+            <p>
+                <span id="clickdata"></span>
+            <p></p>
+            <table align="center" border="0">
+                <tr>
+                    <td width="20"></td>
+                    <td>
+                        <div class="col-lg-2 col-centered">
+                            <div class="input-group" style="width:300px">
+                                <input id="Text1" type="text" class="form-control">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-primary" onclick="ChangeVal()" type="button">Изменить</button>
+                                </span>
+                            </div>
+                            <br>
+
+                            <p>
+                                <br>
+                                <table>
+                                    <tr>
+                                        <td><button class="btn btn-primary btn-lg" onclick="test()">ОПТИМИЗАЦИЯ</button></td>
+                                        <td>
+                                            <a class="openDialog" data-dialog-id="infoDialog" data-dialog-title="Настройки"
+                                               href="Home/Index">
+                                                <input type="button" class="btn btn-success btn-lg" value="НАСТРОЙКИ" />
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <input type="hidden" id="textme" value="[5]" />
+                                <input type="hidden" id="fchrom" value="5" />
+                                <input type="hidden" id="fmut" value="10" />
+                                <input type="hidden" id="fcros" value="15" />
+                                <input type="hidden" id="fiter" value="20" />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+        @Styles.Render("~/Content/themes/base/jquery-ui.css")
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryui")
+    }
+
+
+        <script type="text/javascript">
+
+
+            function test() { //передает массивы точек и сетинги в контрол, обновляет график
+                                
+                var chmass = [];
+                var genset = [];
+
+                chmass = document.getElementById("textme").value ? JSON.parse(document.getElementById("textme").value) : [];
+
+
+                genset.push(document.getElementById("fchrom").value);
+                genset.push(document.getElementById("fmut").value);
+                genset.push(document.getElementById("fcros").value);
+                genset.push(document.getElementById("fiter").value);
+
+
+                var postData = { first: createD(tempmas), second: rett3, third: ress, fourth: chmass, fifth: genset };
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/Gen",
+                    data: postData,
+                    success: function (data) {
+                        $("#flotpart").html(data);
+                    },
+                    dataType: "html",
+                    traditional: true
+                });
+
+            }
+                       
+
+
+        </script>
+
+
+</body>
+</html>

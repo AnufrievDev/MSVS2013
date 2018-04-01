@@ -1,0 +1,163 @@
+﻿
+<div>
+    <div>
+        <form action="/Home/Config" method="post">
+            
+            <table border="0" align="center">
+                <tr><td align="left"><h4>Выбор компонентов</h4></td><td align="center"><h4>Параметры ГА</h4></td></tr>
+                <tr>
+                    <td align="left">
+                        <div>
+                            <table>
+                                <tr>
+                                    <td align="left"><p>Элемент</p></td>
+                                    <td align="center"><p>Изменять?</p></td>
+                                </tr>
+                                @foreach (var b in ViewBag.Params2)
+                                {
+                                    <tr>
+                                        <td><p>@b</p></td>
+                                        <td><p><input type="checkbox" name="checks" value="@b"></p></td>
+                                    </tr>
+                                }
+                            </table>
+                        </div>
+                    </td>
+                    <td valign="top" align="justify" width="40%">
+                        <div>
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1">Кол-во хромосом</span>
+                                <input type="text" class="form-control" id="chrom" placeholder="Введите значение" aria-describedby="basic-addon1">
+                            </div>
+                            <br />
+                            <div class="input-group">
+                                <span class="input-group-addon">Скрещивание</span>
+                                <input type="text" class="form-control" id="mut" placeholder="Введите значение" aria-label="Amount">
+                                <span class="input-group-addon">%</span>
+                            </div>
+                            <br />
+                            <div class="input-group">
+                                <span class="input-group-addon">Мутация</span>
+                                <input type="text" class="form-control" id="cros" placeholder="Введите значение" aria-label="Amount">
+                                <span class="input-group-addon">%</span>
+                            </div>
+                            <br />
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1">Кол-во итераций</span>
+                                <input type="text" class="form-control" id="iter" placeholder="Введите значение" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+
+
+
+            <table border="0" align="center">
+                <tr>
+                    <td><input type="button" id="savebtn" class="btn btn-success btn-sm" value="Сохранить" /></td>
+                    <td><input type="button" id="extbtn" class="btn btn-danger btn-sm" value="Отменить" /></td>
+                </tr>
+            </table>
+
+
+        </form>
+    </div>
+    
+</div>
+
+
+
+
+<script type="text/javascript">
+
+    var tmp = [];
+    var chmass = [];
+    var genset = [];
+
+    var xyz = document.getElementsByName("checks");
+
+    chmass = document.getElementById("textme").value ? JSON.parse(document.getElementById("textme").value) : [];
+
+    if (chmass[0] == 5)
+    {
+        chmass = [];
+        for (var v = 0; v < xyz.length; v++) {
+            chmass.push(true);
+        }
+    }
+
+
+    //var xyz = document.getElementsByName("checks");
+    //xyz[0].checked = true;
+
+
+    for (var i = 0; i < chmass.length; i++) {
+        //alert(chmass[i]);
+        if (chmass[i] == true) xyz[i].checked = true;
+        else xyz[i].checked = false;
+    }
+    chmass = [];
+
+    document.getElementById("chrom").value = document.getElementById("fchrom").value;
+    document.getElementById("mut").value = document.getElementById("fmut").value;
+    document.getElementById("cros").value = document.getElementById("fcros").value;
+    document.getElementById("iter").value = document.getElementById("fiter").value;
+
+
+    $("#extbtn").on("click", function (e) {
+        e.preventDefault();
+        $(this).closest(".dialog").dialog("close");
+    });
+
+    $("#savebtn").on("click", function (e) {
+        e.preventDefault();
+
+
+        var xxx = document.getElementsByName("checks");
+
+        genset = [];
+        genset.push(document.getElementById("chrom").value);
+        genset.push(document.getElementById("mut").value);
+        genset.push(document.getElementById("cros").value);
+        genset.push(document.getElementById("iter").value);
+
+        for (var i = 0; i < xxx.length; i++) {
+
+            chmass.push(xxx[i].checked);
+
+        }
+
+
+        var sndcheck = { first: chmass, second: genset };
+
+        $.ajax({
+            type: "POST",
+            url: "/Home/Config",
+            data: sndcheck,
+            success: function () {
+                //alert("Saved");
+                saveCh();
+            },
+            dataType: "text",
+            traditional: true
+        });
+
+        $(this).closest(".dialog").dialog("close");
+    });
+
+
+    function saveCh() {
+
+        document.getElementById("textme").value = "";
+        document.getElementById("textme").value = JSON.stringify(chmass);
+        chmass = [];
+        document.getElementById("fchrom").value = genset[0];
+        document.getElementById("fmut").value = genset[1];
+        document.getElementById("fcros").value = genset[2];
+        document.getElementById("fiter").value = genset[3];
+
+    }
+
+</script>

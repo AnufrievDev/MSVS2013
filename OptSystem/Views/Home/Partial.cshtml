@@ -1,0 +1,196 @@
+﻿@*<h2>@ViewBag.Message</h2>*@
+
+<h1>
+    Просмотр и редактирование графика АЧХ <span id="priceHolder"></span>
+</h1>
+<div id="placeholder" style="width: 900px; height: 600px; margin: 0 auto">
+
+</div>
+
+
+
+
+
+<script src="~/Scripts/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="~/Scripts/flot/jquery.flot.min.js" type="text/javascript"></script>
+<script src="~/Scripts/flot/jquery.flot.js" type="text/javascript"></script>
+<script src="~/Scripts/jquery-ui-1.12.1.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+
+    //function copymass (from)
+    //{
+    //    datavar.push(from);
+
+    //}
+
+    var totalMyPoints = 10;
+
+    function initMyData() {
+        var rett = [];
+        for (var i = -10; i <= totalMyPoints; ++i)
+            rett.push([i, i * i]);
+        return rett;
+    }
+    function createD(fromarr) {
+        var datavar = [];
+        for (var i = 0; i < fromarr.length; ++i) {
+            datavar.push([fromarr[i], fromarr[++i]]);
+            //alert("hi # " + i);
+            //datavar.push([2, 2]);
+        }
+
+        return datavar;
+    }
+
+
+
+
+    var tempmas = [];
+    var h = 0;
+    var flag = 0;
+
+    //alert("hi #1");
+    //datavar = initMyData();
+    @foreach (var b in ViewBag.Params)
+        {
+
+            <text>
+    h++;
+    tempmas.push(@b);
+
+    </text>
+        }
+    var ress = [];  //результирующий массив точек
+
+    var rett2 = []; //массив с желаемой характеристикой
+        @foreach (var t in ViewBag.Params2)
+    {
+
+        <text>
+    rett2.push(@t);
+
+    </text>
+    }
+    var rett3 = createD(rett2);
+
+    @foreach (var m in ViewBag.Params3)
+    {
+
+        <text>
+        ress.push(@m);
+
+        </text>
+    }
+
+
+
+    var pnt; //переменная для запоминания выбранной точки
+    var xpos; //координата точки по горизонт
+
+    var myOptions = {
+        series: {
+            lines: { show: true },
+            points: { show: true }
+        },
+
+        highlightColor: 3,
+        colors: ["rgb(5, 142, 58)", "rgb(34, 242, 225)", "rgb(168, 0, 48)", "rgb(0, 0, 255)", "rgb(0, 0, 0)"],
+
+        legend: {
+            show: true,
+            //labelFormatter: function (label, series) {
+            //    // series is the series object for the label
+            //    return '<a href="#' + label + '">' + label + '</a>';
+            //},
+            labelBoxBorderColor: 3,
+            noColumns: 1,
+            position: "sw",
+            margin: [10, 10],
+            backgroundColor: 4,
+            backgroundOpacity: 0.5,
+            container: null,
+            sorted: null
+        },
+
+        grid: {
+            show: true,
+            clickable: true,
+            mouseActiveRadius: 5
+        },
+
+        xaxis: {
+            transform: function (v) { return Math.log(v); },
+            inverseTransform: function (v) { return Math.exp(v); },
+            ticks: function piTickGenerator(axis) {
+                var res = [], i = axis.min;
+                do {
+                    //var v = i;
+                    if ((i > 1000) && (i < 10000))
+                        res.push([Math.floor(i / 1000) * 1000, Math.floor(i / 1000) + "k"]);
+                    else
+                        if ((i > 100) && (i < 1000))
+                            res.push([Math.floor(i / 100) * 100, Math.floor(i / 100) * 100]);
+                        else
+                            if (i > 10000)
+                                res.push([Math.floor(i / 10000) * 10000, Math.floor(i / 10000) * 10 + "k"]);
+                            else
+                                res.push([i, i]);
+                    i = i * 2;
+                } while (i < axis.max);
+                return res;
+            }
+          }
+
+    };
+
+
+
+    var plot = $.plot("#placeholder", [{ label: "Результат", data: createD(ress), clickable: false },
+                                        { label: "Текущее", data: createD(tempmas) },
+                                    { label: "Желаемое", data: rett3, clickable: false }
+                                    ], myOptions);
+
+
+
+
+    //обработка нажатия
+    $("#placeholder").bind("plotclick", function (event, pos, item) {
+        if (item) {
+
+            //alert("You clicked a point!");
+            pnt = item.dataIndex; //записываем нажатую точку
+            xpos = pos.x; //записываем коорд по гориз
+            $("#clickdata").text("Значение в точке " + pnt + " равно " + pos.y);
+            document.getElementById("Text1").value = pos.y;
+            plot.highlight(item.series, item.datapoint);
+            //highlight(item.series, item.datapoint);
+
+            //pnt = item.dataIndex;//записываем нажатую точку
+
+        }
+        // axis coordinates for other axes, if present, are in pos.x2, pos.x3, ...
+        // if you need global screen coordinates, they are pos.pageX, pos.pageY
+
+
+    });
+
+
+    function ChangeVal() {
+
+        //alert("You clicked a button! " + datavar[1,1]);
+        rett3[pnt] = [xpos, document.getElementById("Text1").value];
+
+        plot.setData([{ data: createD(ress), clickable: false }, { data: createD(tempmas) }, { data: rett3, clickable: false }]);
+        plot.draw();
+
+    }
+
+    @*@foreach (var item in ViewBag.Params) {
+        @:copymass(@item);
+    }*@
+
+
+
+</script>

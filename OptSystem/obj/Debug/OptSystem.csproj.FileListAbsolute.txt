@@ -1,0 +1,150 @@
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\OptSystem.dll.config
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\OptSystem.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\OptSystem.pdb
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\Antlr3.Runtime.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\Microsoft.Web.Infrastructure.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\Newtonsoft.Json.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Helpers.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Mvc.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Optimization.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Razor.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.Deployment.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.Razor.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\WebGrease.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Helpers.xml
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Mvc.xml
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Optimization.xml
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Razor.xml
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.xml
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.Deployment.xml
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.Razor.xml
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\Newtonsoft.Json.xml
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\Antlr3.Runtime.pdb
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\obj\Debug\OptSystem.csprojResolveAssemblyReference.cache
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\obj\Debug\OptSystem.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\obj\Debug\OptSystem.pdb
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\EntityFramework.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\EntityFramework.SqlServer.dll
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\EntityFramework.xml
+c:\users\p_a_anufriev\documents\visual studio 2013\Projects\OptSystem\OptSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\OptSystem.dll.config
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\OptSystem.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\OptSystem.pdb
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\Antlr3.Runtime.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\EntityFramework.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\Newtonsoft.Json.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Helpers.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Mvc.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Optimization.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Razor.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\WebGrease.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\EntityFramework.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Helpers.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Mvc.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Optimization.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.Razor.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\Newtonsoft.Json.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\obj\Debug\OptSystem.csprojResolveAssemblyReference.cache
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\obj\Debug\OptSystem.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\obj\Debug\OptSystem.pdb
+F:\Projects\OptSystem\OptSystem\bin\OptSystem.dll.config
+F:\Projects\OptSystem\OptSystem\bin\OptSystem.dll
+F:\Projects\OptSystem\OptSystem\bin\OptSystem.pdb
+F:\Projects\OptSystem\OptSystem\bin\Antlr3.Runtime.dll
+F:\Projects\OptSystem\OptSystem\bin\EntityFramework.dll
+F:\Projects\OptSystem\OptSystem\bin\EntityFramework.SqlServer.dll
+F:\Projects\OptSystem\OptSystem\bin\Microsoft.Web.Infrastructure.dll
+F:\Projects\OptSystem\OptSystem\bin\Newtonsoft.Json.dll
+F:\Projects\OptSystem\OptSystem\bin\System.Web.Helpers.dll
+F:\Projects\OptSystem\OptSystem\bin\System.Web.Mvc.dll
+F:\Projects\OptSystem\OptSystem\bin\System.Web.Optimization.dll
+F:\Projects\OptSystem\OptSystem\bin\System.Web.Razor.dll
+F:\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.Deployment.dll
+F:\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.dll
+F:\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.Razor.dll
+F:\Projects\OptSystem\OptSystem\bin\WebGrease.dll
+F:\Projects\OptSystem\OptSystem\bin\EntityFramework.xml
+F:\Projects\OptSystem\OptSystem\bin\EntityFramework.SqlServer.xml
+F:\Projects\OptSystem\OptSystem\bin\System.Web.Helpers.xml
+F:\Projects\OptSystem\OptSystem\bin\System.Web.Mvc.xml
+F:\Projects\OptSystem\OptSystem\bin\System.Web.Optimization.xml
+F:\Projects\OptSystem\OptSystem\bin\System.Web.Razor.xml
+F:\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.xml
+F:\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.Deployment.xml
+F:\Projects\OptSystem\OptSystem\bin\System.Web.WebPages.Razor.xml
+F:\Projects\OptSystem\OptSystem\bin\Newtonsoft.Json.xml
+F:\Projects\OptSystem\OptSystem\bin\Antlr3.Runtime.pdb
+F:\Projects\OptSystem\OptSystem\obj\Debug\OptSystem.csprojResolveAssemblyReference.cache
+F:\Projects\OptSystem\OptSystem\obj\Debug\OptSystem.dll
+F:\Projects\OptSystem\OptSystem\obj\Debug\OptSystem.pdb
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\OptSystem.dll.config
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\OptSystem.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\OptSystem.pdb
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\Antlr3.Runtime.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\EntityFramework.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\Newtonsoft.Json.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Helpers.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Mvc.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Optimization.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Razor.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.WebPages.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\WebGrease.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\EntityFramework.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Helpers.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Mvc.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Optimization.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Razor.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.WebPages.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\Newtonsoft.Json.xml
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\Antlr3.Runtime.pdb
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\obj\Debug\OptSystem.csprojResolveAssemblyReference.cache
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\obj\Debug\OptSystem.dll
+C:\Users\Администратор.000\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\obj\Debug\OptSystem.pdb
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\OptSystem.dll.config
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\OptSystem.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\OptSystem.pdb
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\Antlr3.Runtime.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\EntityFramework.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\EntityFramework.SqlServer.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\Newtonsoft.Json.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Helpers.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Mvc.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Optimization.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Razor.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.WebPages.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\WebGrease.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\EntityFramework.xml
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\EntityFramework.SqlServer.xml
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Helpers.xml
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Mvc.xml
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Optimization.xml
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.Razor.xml
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.WebPages.xml
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\Newtonsoft.Json.xml
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\bin\Antlr3.Runtime.pdb
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\obj\Debug\OptSystem.csprojResolveAssemblyReference.cache
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\obj\Debug\OptSystem.dll
+C:\Users\p_a_anufriev\Documents\Visual Studio 2013\Projects\OptSystem\OptSystem\OptSystem\obj\Debug\OptSystem.pdb

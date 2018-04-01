@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Flot</title>
+</head>
+<body>
+    <div> 
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+<div id="plot_area" style="width:600px;height:300px;"></div>
+
+<script type="text/javascript">
+    $(function () {
+        $.getJSON('../../Home/JsonValues', function (data) {
+            $.plot($('#plot_area'), [data]);
+        });
+    });
+</script>

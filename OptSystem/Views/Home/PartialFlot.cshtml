@@ -1,0 +1,13 @@
+﻿
+<h2>@ViewBag.Message</h2>
+
+
+<div id="plot_area" style="width:600px;height:300px;"></div>
+
+<script type="text/javascript">
+    $(function () {
+        $.getJSON('../../Home/JsonValues', function (data) {
+            $.plot($('#plot_area'), [data]);
+        });
+    });
+</script>
