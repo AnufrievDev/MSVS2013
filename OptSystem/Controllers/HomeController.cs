@@ -116,7 +116,7 @@ namespace OptSystem.Controllers
             string[,] paramss1 = nominal.Item1;
             List<string> paramss2 = nominal.Item2;
             List<int> paramss3 = nominal.Item3;
-            // передаем все объекты в динамическое свойство Books в ViewBag
+            // передаем все объекты в динамическое свойство Params в ViewBag
             ViewBag.Params1 = paramss1;
             ViewBag.Params2 = paramss2;
             ViewBag.Params3 = paramss3;
@@ -335,7 +335,7 @@ namespace OptSystem.Controllers
         public ActionResult About()
         {
 
-            // передаем все объекты в динамическое свойство Books в ViewBag
+            // передаем все объекты в динамическое свойство Title в ViewBag
             ViewBag.Title = "123";
             ViewBag.Message = "456";
 
